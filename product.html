@@ -540,6 +540,20 @@
                                             font-size: 22px;
                                         }
                                     }
+
+                                    @media (min-width: 768px) {
+                                        .our-product .product-list .col-12 {
+                                            position: relative;
+                                            padding-bottom: 2rem !important;
+                                        }
+
+                                        .our-product .product-list a {
+                                            position: absolute;
+                                            bottom: 0;
+                                            left: 50%;
+                                            transform: translateX(-50%);
+                                        }
+                                    }
                                 </style>
                                 <div class="container">
                                     <div class="row">
@@ -591,7 +605,7 @@
                                 </div>
                             </div>
                             <div class="container">
-                                <div class="row product-list">
+                                <div class="row product-list h-100">
                                     <div class="col-12 col-md-6 mb-md-5 pb-md-4 mb-4 pb-2">
                                         <img src="./images/S-26_Gold®_Ascenda™.png" alt="S-26_Gold®_Ascenda™"
                                             width="100%" class="d-none d-md-block mb-4">
@@ -605,7 +619,7 @@
                                                 <p>For picky eating toddlers and young children</p>
                                             </div>
                                         </center>
-                                        <p class="mb-5">ASCENDA™’s specialty, BUILD & LEARN SYSTEM™ contains a
+                                        <p style="mb-5">ASCENDA™’s specialty, BUILD & LEARN SYSTEM™ contains a
                                             scientific blend of
                                             essential nutrients to help support body growth and learning.</p>
                                         <a class="btn" href="">Read more</a>
